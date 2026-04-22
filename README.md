@@ -94,13 +94,13 @@ Three specialized AI agents work sequentially — each passing structured contex
 ```
 ┌──────────────────────┬──────────────────────────────────────────┐
 │  🔐 AUTHORIZATION    │  ATTACK CHAIN TERMINAL          ● LIVE  │
-│  ☑ Authorized lab   │                                          │
-│                      │  ▶ AGENT 01 — ROS RECON — STREAMING     │
-│  ▶ EXECUTE CHAIN    │  {"recon_summary": "Enumerated 7         │
+│  ☑ Authorized lab    │                                         │
+│                       │  ▶ AGENT 01 — ROS RECON — STREAMING    │
+│  ▶ EXECUTE CHAIN     │  {"recon_summary": "Enumerated 7        │
 │                      │  ROS nodes including /move_base,         │
-│  ⚙ TARGET CONFIG    │  /rosbridge_server exposed on port       │
+│  ⚙ TARGET CONFIG     │  /rosbridge_server exposed on port      │
 │  ROS Master URI      │  9090 with no authentication...          │
-│  ROS 2 DDS Domain   │                                           │
+│  ROS 2 DDS Domain    │                                          │
 │  Network Segment     │  ──────────────────────────────────      │
 │  Robot Type          │                                          │
 │  ROS Distribution    │  ▶ AGENT 02 — EXPLOIT ANALYST            │
