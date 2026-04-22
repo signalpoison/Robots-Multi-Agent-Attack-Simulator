@@ -13,13 +13,13 @@ Three specialized AI agents work sequentially — each passing structured contex
 
 ```
 ╔══════════════════════════════════════════════════════════╗
-║     🤖  ROS MULTI-AGENT AI ATTACK CHAIN SIMULATOR       ║
+║     🤖  ROS MULTI-AGENT AI ATTACK CHAIN SIMULATOR        ║
 ╠══════════════════════════════════════════════════════════╣
-║  Agent 01 → ROS Recon Planner      ● COMPLETE           ║
-║  Agent 02 → Exploit Surface Analyst ● COMPLETE          ║
-║  Agent 03 → Report Synthesizer     ● COMPLETE           ║
+║  Agent 01 → ROS Recon Planner      ● COMPLETE            ║
+║  Agent 02 → Exploit Surface Analyst ● COMPLETE           ║
+║  Agent 03 → Report Synthesizer     ● COMPLETE            ║
 ╠══════════════════════════════════════════════════════════╣
-║  Critical: 3   High: 4   Medium: 2   Low: 1             ║
+║  Critical: 3   High: 4   Medium: 2   Low: 1              ║
 ║  Overall Risk: CRITICAL                                  ║
 ╚══════════════════════════════════════════════════════════╝
 ```
@@ -30,7 +30,7 @@ Three specialized AI agents work sequentially — each passing structured contex
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│                    TARGET CONFIGURATION                      │
+│                    TARGET CONFIGURATION                     │
 │         ROS Master URI · DDS Domain · Robot Type            │
 └───────────────────────────┬─────────────────────────────────┘
                             │
@@ -96,26 +96,26 @@ Three specialized AI agents work sequentially — each passing structured contex
 │  🔐 AUTHORIZATION    │  ATTACK CHAIN TERMINAL          ● LIVE  │
 │  ☑ Authorized lab   │                                          │
 │                      │  ▶ AGENT 01 — ROS RECON — STREAMING     │
-│  ▶ EXECUTE CHAIN    │  {"recon_summary": "Enumerated 7        │
-│                      │  ROS nodes including /move_base,        │
-│  ⚙ TARGET CONFIG    │  /rosbridge_server exposed on port      │
-│  ROS Master URI      │  9090 with no authentication...         │
-│  ROS 2 DDS Domain   │                                          │
-│  Network Segment     │  ──────────────────────────────────     │
+│  ▶ EXECUTE CHAIN    │  {"recon_summary": "Enumerated 7         │
+│                      │  ROS nodes including /move_base,         │
+│  ⚙ TARGET CONFIG    │  /rosbridge_server exposed on port       │
+│  ROS Master URI      │  9090 with no authentication...          │
+│  ROS 2 DDS Domain   │                                           │
+│  Network Segment     │  ──────────────────────────────────      │
 │  Robot Type          │                                          │
-│  ROS Distribution    │  ▶ AGENT 02 — EXPLOIT ANALYST           │
-│  Known Nodes         │  {"risk_summary": "Critical attack      │
-│                      │  surface identified. Unauthenticated    │
-│  AGENT CHAIN         │  rostopic pub allows direct motor...    │
+│  ROS Distribution    │  ▶ AGENT 02 — EXPLOIT ANALYST            │
+│  Known Nodes         │  {"risk_summary": "Critical attack       │
+│                      │  surface identified. Unauthenticated     │
+│  AGENT CHAIN         │  rostopic pub allows direct motor...     │
 │  01 ● COMPLETE       │                                          │
 │  02 ▶ ACTIVE         │  ──────────────────────────────────     │
 │  03 ○ WAITING        │                                          │
 │                      │  ▶ AGENT 03 — REPORT SYNTHESIZER        │
-│  FINDINGS SUMMARY    │  # Executive Summary                    │
-│  CRITICAL: 3         │  This assessment identified 3           │
-│  HIGH:     4         │  critical vulnerabilities...            │
+│  FINDINGS SUMMARY    │  # Executive Summary                     │
+│  CRITICAL: 3         │  This assessment identified 3            │
+│  HIGH:     4         │  critical vulnerabilities...             │
 │  MEDIUM:   2         │                                          │
-│  LOW:      1         │  ⬇ DOWNLOAD FULL REPORT (.md)          │
+│  LOW:      1         │  ⬇ DOWNLOAD FULL REPORT (.md)            │
 └──────────────────────┴──────────────────────────────────────────┘
 ```
 
